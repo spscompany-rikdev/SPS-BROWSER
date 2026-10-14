@@ -1,2 +1,2 @@
-# SPS-BROWSER-PRO
+# SPS-BROWSER
 SPS BROWSER -official website by SPS COMPANY
