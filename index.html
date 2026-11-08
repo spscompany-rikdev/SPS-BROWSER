@@ -630,6 +630,28 @@
   </div>
 </section>
 
+<!-- ═══════════ CODE SIGNING POLICY ═══════════ -->
+<section id="code-signing-policy">
+  <div class="wrap" style="max-width:860px">
+    <div class="center">
+      <div class="eyebrow">Trust</div>
+      <h2 class="h2">Code signing policy</h2>
+    </div>
+    <div class="card" style="margin-top:32px">
+      <p>Free code signing for the Windows files of SPS Browser is provided by <a href="https://about.signpath.io/" target="_blank" rel="noopener">SignPath.io</a>, with a certificate from the <a href="https://signpath.org/" target="_blank" rel="noopener">SignPath Foundation</a>.</p>
+      <p class="note" style="margin-top:8px">This applies once SignPath has accepted the project. Until then the Windows files are not yet signed; see the download section for how to check them with a SHA-256 checksum.</p>
+      <h3 style="margin-top:20px">What is signed</h3>
+      <p>Only files built from the <a href="https://github.com/spscompany-rikdev/sps-browser-uperaction" target="_blank" rel="noopener">public source code</a> by the public GitHub Actions workflow: the Windows installer and the program files inside it. Nothing from other projects is signed with this certificate.</p>
+      <h3 style="margin-top:20px">How a release is signed</h3>
+      <p>GitHub Actions builds the release from a version tag and sends it to SignPath. An approver checks the request and approves each release by hand. The signed files are published on the <a href="https://github.com/spscompany-rikdev/sps-browser-uperaction/releases" target="_blank" rel="noopener">GitHub Releases page</a> with SHA-256 checksums.</p>
+      <h3 style="margin-top:20px">Team roles</h3>
+      <p><b>Authors and reviewers:</b> <a href="https://github.com/spscompany-rikdev" target="_blank" rel="noopener">spscompany-rikdev</a>. <b>Approver:</b> <a href="https://github.com/spscompany-rikdev" target="_blank" rel="noopener">spscompany-rikdev</a>. All team members use multi-factor authentication.</p>
+      <h3 style="margin-top:20px">Privacy statement</h3>
+      <p>SPS Browser has no accounts and no usage analytics, and the project runs no server that receives your data. The only network requests are the websites you open and the optional services listed in the <a href="https://github.com/spscompany-rikdev/sps-browser-uperaction/blob/main/PRIVACY_POLICY.md" target="_blank" rel="noopener">privacy policy</a>, which is also shown during installation.</p>
+    </div>
+  </div>
+</section>
+
 <!-- ═══════════ FINAL CTA ═══════════ -->
 <section style="padding:72px 0">
   <div class="wrap center">
@@ -657,7 +679,7 @@
       <div><h4>Legal</h4><ul>
         <li><a href="https://github.com/spscompany-rikdev/sps-browser-uperaction/blob/main/PRIVACY_POLICY.md" target="_blank" rel="noopener">Privacy policy</a></li>
         <li><a href="https://github.com/spscompany-rikdev/sps-browser-uperaction/blob/main/LICENSE.txt" target="_blank" rel="noopener">License</a></li>
-        <li><a href="#faq">FAQ</a></li></ul></div>
+        <li><a href="#code-signing-policy">Code signing policy</a></li><li><a href="#faq">FAQ</a></li></ul></div>
     </div>
     <div class="f-bottom">
       <span>© 2026 SPS Browser. Free and open source.</span>
